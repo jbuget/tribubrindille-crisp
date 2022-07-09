@@ -1,0 +1,55 @@
+<!doctype html>
+<html class="no-js" lang="fr"><!-- specify language: http://www.w3.org/TR/html401/struct/dirlang.html#h-8.1 -->
+<head prefix="og: http://ogp.me/ns#"><!-- enable Open Graph: http://ogp.me/ -->
+
+  <!-- charset & http-equiv may be set via response header: https://github.com/h5bp/html5-boilerplate/blob/master/doc/html.md#x-ua-compatible -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Brind'Ecoute - Le service d'écoute pour les jeunes aidant·es</title>
+  <meta name="description" content="Brind'Ecoute est le service d'écoute pour les jeunes aidant·es">
+  <meta name="keywords" content="brind'écoute, jeunes, aidants, handicap, addiction, maladie, écoute">
+  <meta property="og:image" content="http://voorhoede.github.io/a11y-boilerplate/a11y-boilerplate.png">
+  <meta property="og:url"   content="http://voorhoede.github.io/">
+  <!-- optionally add more Open Graph metadata: http://ogp.me/#metadata -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- specify viewport: https://developers.google.com/speed/docs/insights/ConfigureViewport -->
+  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+  <!-- Enable styling differentation between JavaScript and non-JavaScript enabled browsers -->
+  <script>(function (e) { e.className = e.className.replace('no-js', 'js'); }(document.documentElement));</script>
+  <!-- Enable styling of HTML5 sectioning elements in legacy browsers. Simplified inline version of HTML5Shiv (https://github.com/aFarkas/html5shiv) for enhanced performance -->
+  <!--[if lt IE 9]>
+  <script>
+      (function (d, a) {
+          d.documentElement.className = 'lt-ie9'; var l = a.length; while(l--){ d.createElement(a[l]); }
+      }(document, ['HEADER', 'NAV', 'SECTION', 'FOOTER', 'ARTICLE', 'MAIN', 'FIGCAPTION', 'FIGURE', 'ASIDE']));
+  </script>
+  <![endif]-->
+
+  <!-- Include stylesheets here. Concatenate & minify for performance: https://developers.google.com/speed/docs/insights/MinifyResources -->
+</head>
+<body>
+
+<!-- Include scripts here. Concatenate & minify for performance: https://developers.google.com/speed/docs/insights/MinifyResources -->
+<script type="text/javascript">
+  window.$crisp=[];
+
+  window.CRISP_WEBSITE_ID="da12eeef-b76f-4b91-9ee1-a6bebfc7dc1b";
+
+  let crispTokenId = window.localStorage.getItem('crisp_token_id');
+  if (!crispTokenId) {
+    crispTokenId = self.crypto.randomUUID();
+    window.localStorage.setItem('crisp_token_id', crispTokenId);
+  }
+  window.CRISP_TOKEN_ID = crispTokenId;
+
+  window.CRISP_RUNTIME_CONFIG={ locale:"fr" };
+
+  (function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+
+  $crisp.push(['do', 'chat:open']);
+</script>
+
+</body>
+</html>
